@@ -1,6 +1,7 @@
-# contribution
-Venez contribuer a l'amélioration du serveur Developpement Community et des outils proposés.
+## Venez contribuer a l'amélioration du serveur Developpement Community et des outils proposés.
 
+**En ouvrant une Pull Requests ou en ouvrant une issue vous pouvez désormais nous aider à ajouter des ressources ou corriger les erreurs des ressources précédente.**
+</br></br></br>
 ### Voici des exemples pour chaque listes:
 </br>
 
