@@ -1,0 +1,27 @@
+name: Bug report
+description: Report un soucis ou une faute sur une ressource
+labels: [bug]
+assignees:
+  - LACOSTAR91
+  - ValuWaurld
+body:
+  - type: input
+    id: line
+    attributes:
+      label: Ligne
+      description: "La ligne ou se trouve l'erreur (en précisant le numéro de commit si possible)"
+      placeholder: Ex. Ligne 13, Commit ff670c12a108993d35c68cbc01942079ed292edb
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue description
+      description: |
+        Décriver ce bug avec le plus de détail possible et comment reproduire ce bug
+
+        Tip: Vous pouvez ajouter des images ou des fichiers en cliquant sur cet aire pour la sélectionner puis faite un glisser/déposer du fichier.
+      placeholder: |
+        Bug sur le système de détection d'erreur à l'erreur Invalid Token '...'
+    validations:
+      required: true
