@@ -14,7 +14,7 @@ body:
     id: name
     attributes:
       label: Nom de la ressource
-      placeholder: Ex. Github
+      placeholder: Ex. InvalidToken
     validations:
       required: true
   - type: dropdown
@@ -37,6 +37,8 @@ body:
   - type: textarea
     id: complementaryInfos
     attributes:
-      label: Images complémentaires (Sous forme de lien)
+      label: Images complémentaires (Sous forme de lien ou directement dans le texte)
+      description: |
+        Tip: Vous pouvez ajouter des images ou des fichiers en cliquant sur cet aire pour la sélectionner puis faite un glisser/déposer du fichier.
     validations:
       required: false
