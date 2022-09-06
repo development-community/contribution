@@ -1,15 +1,10 @@
 name: Proposer une ressource
 description: Proposer une ressource à ajouter à une liste pour la compléter
-title: "[RESSOURCE]: "
 labels: ["proposition"]
 assignees:
   - LACOSTAR91
   - ValuWaurld
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Merci pour votre participation
   - type: input
     id: name
     attributes:
