@@ -1,0 +1,42 @@
+name: Proposer une ressource
+description: Proposer une ressource à ajouter à une liste pour la compléter
+title: ""
+labels: ["proposition"]
+assignees:
+  - LACOSTAR91
+  - ValuWaurld
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci pour votre participation
+  - type: input
+    id: name
+    attributes:
+      label: Nom de la ressource
+      placeholder: Ex. Github
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type de ressource 
+      description: 
+      options:
+        - Learn
+        - Hebergeur
+        - Error détection
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Ressource sous forme de code (Voir les exemples pour chaque ressources)
+    validations:
+      required: true
+  - type: textarea
+    id: complementaryInfos
+    attributes:
+      label: Images complémentaires (Sous forme de lien)
+    validations:
+      required: false
